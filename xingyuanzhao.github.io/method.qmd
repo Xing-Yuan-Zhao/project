@@ -1,3 +1,0 @@
----
-title: "Model of Interest"
----

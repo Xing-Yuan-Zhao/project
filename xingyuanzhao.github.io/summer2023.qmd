@@ -1,5 +1,0 @@
----
-title: "2023 Summer"
----
-
-This is the page of 2023 summer project.
