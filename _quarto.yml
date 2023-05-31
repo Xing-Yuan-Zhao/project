@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "xingyuanzhao.github.io"
+  title: "xing-yuan-zhao.github.io"
   navbar:
     left:
       - text: Home
