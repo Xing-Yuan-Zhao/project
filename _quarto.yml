@@ -25,6 +25,8 @@ website:
             text: Data
           - href: finding.qmd
             text: Findings
+          - href: reference.qmd
+            text: References
 
 format:
   html:

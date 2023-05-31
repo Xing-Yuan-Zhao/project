@@ -1,7 +1,32 @@
 ---
 title: "Research Question"
 ---
-### Topic of Interest and motivations
-### Research Question Draft
-### Dependen Variable Draft
-### Hypothesis Draft
+#### Topic of Interest and motivations
+
+In recent years, due to the polarization and nationalization of American politics, partisanship has become a social identity, which in turn reinforces polarization, making individuals from one side more likely to believe in similar opinions rather than having different flavors of Democrats and Republicans as it used to be (Iyengar et al., 2019; Pierson and Schikler, 2020). 
+
+However, Uscinski et al. (2021) argue that instead of using only left and right to understand the masses, adding another dimension, the anti-establishment and pro-establishment axis, can better conceptualize US public opinion. 
+
+It is a great idea to think beyond a Manichean us-versus-them narrative. I wonder if we can add more than one, maybe two, three or even more dimensions to measure public opinion to better capture what people believe and how they vote.
+
+#### Research Question Draft
+
+Can a multi-dimensional model predict votes better than left-right model?
+
+#### Dependent Variable Draft
+
+Individual votes in presidential elections
+
+#### Hypothesis Draft
+
+1.The multi-dimensional model predicts votes better than the left-right model.
+
+2.Since the polarization is considered risen in recent years, so I will assume that the difference between the multi-dimensional model and the left-right model will decrease.
+
+#### Model of Interest
+
+I might use a hybrid model that first clusters and then predicts.
+
+#### Data of Interest
+
+ANES data provides various of independent variables that I can use as dimensions.
