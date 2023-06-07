@@ -11,8 +11,10 @@ website:
         menu:
           - href: summer2023.qmd
             text: 2023 Summer Project Overview
-          - href: question.qmd
-            text: Research Question
+          - href: proposal.qmd
+            text: Proposal
+          - href: presentation1.qmd
+            text: Proposal Presentation
           - href: litreview.qmd
             text: Literature Review
           - href: variable.qmd
