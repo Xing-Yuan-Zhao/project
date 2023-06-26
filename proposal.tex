@@ -1,0 +1,246 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={proposal},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{proposal}
+\author{}
+\date{\vspace{-2.5em}2023-06-23}
+
+\begin{document}
+\maketitle
+
+\hypertarget{topic-of-interest-and-motivations}{%
+\subsubsection{Topic of Interest and
+motivations}\label{topic-of-interest-and-motivations}}
+
+Conventional wisdom holds that right-wingers should be hawkish and are
+supposed to tend to support a more aggressive foreign policy compared to
+liberals, however, this does not seem to be the case for American
+Republicans in the Russia's invasion of Ukraine scenario, according to
+the following accounts. 19 GOP lawmakers urged Biden to stop sending
+``unrestrained'' aid and weapons to Ukraine (The Hill. 2023), and Donald
+Trump has also claimed to try to broker peace in Ukraine (Business
+Insider. 2022; Business Insider. 2023). On the other hand, Boris
+Johnson, the former Prime Minister and the leader of the Conservative
+Party, who has been supporting the Ukrainian defenders from the
+beginning, tried to convince Trump to support Ukraine(The Guardian.
+2023), and the Italian leader Meloni, who leads a far-right party, is
+also willing to risk unpopularity to support Ukraine.(Reuters. 2023)
+Poland, led by United Right, also has been supported Ukraine almost
+since day one and pleged a lot by its GDP size.(The Economist. 2022) The
+most interest part is that, the Trump supporters themselves were once
+considered more hawkish(Sides et al.~2018), but now they want world
+peace.
+
+\hypertarget{research-question}{%
+\subsubsection{Research Question}\label{research-question}}
+
+So now we can see a very counter-intuitive problem: \textbf{What is
+discouraging American conservatives from taking a more hawkish stance in
+support of Ukraine?}
+
+\hypertarget{hypothesis}{%
+\subsubsection{Hypothesis}\label{hypothesis}}
+
+H1: Conservatives in the US are built differently. They hold different
+sets of beliefs than other conservatives, such as isolationism.(Clarke
+and Ricketts 2017; Rolf 2021; Cha 2016; Clark et al.~2016)
+
+H2: They genuinely believe that supporting Ukraine will lead to WW3 or
+nuclear war, and they want to avoid that.
+
+H3: Their arguments are based on economics. Their perception of
+inflation leads to their war-weariness.
+
+H4: It is caused by polarization. They are only against what Biden
+supports. (Iyengar et al.~2019; Pierson and Schickler 2020)
+
+H5: They are misled by Russian bots.(Stukal wt al.~2019; Gorwa and
+Guilbeault 2020; Hagen et al.~2022)
+
+I must clarify that the research does not aim to test whether their
+arguments are true or not, but how these beliefs interact with
+conservative individuals' attitudes toward supporting Ukraine.
+
+\hypertarget{variables-draft}{%
+\subsubsection{Variables Draft}\label{variables-draft}}
+
+DV: Whether a comment supports Ukraine
+
+IV: The predicting factors in the said hypotheses
+
+\hypertarget{data-of-interest}{%
+\subsubsection{Data of Interest}\label{data-of-interest}}
+
+H1-H4: Youtube comments(tuber)
+
+H5: Twitter(kaggle)
+
+\hypertarget{method-of-interest}{%
+\subsubsection{Method of Interest}\label{method-of-interest}}
+
+Text as Data H1-H4: Sentiment Analysis H5: Social Network
+
+First, I will use the Tuber package to extract Youtube comments from
+conservative media.
+
+Then I will process these comments and tokenize them to create a
+document by term matirx.
+
+After that, I will try some word frequency analysis or clustering to
+find out any features I may have ignored. If there are any, I will
+iterate my hypotheses.
+
+Finally, I will do sentiment analysis for the first four hypotheses, and
+maybe social network analysis for hypothesis five, because I need
+retweets to show the relationship between the Russian bots and the
+retweeters.
+
+\hypertarget{bibliography}{%
+\subsubsection{Bibliography}\label{bibliography}}
+
+Cha, Taesuh. 2016. ``The Return of Jacksonianism: The International
+Implications of the Trump Phenomenon.'' \emph{The Washington Quarterly}
+39(4): 83--97.
+
+Clark, David H., Benjamin O. Fordham, and Timothy Nordstrom. 2016.
+``Political Party and Presidential Decisions to Use Force: Explaining a
+Puzzling Nonfinding: POLITICAL PARTY AND PRESIDENTIAL DECISIONS TO USE
+FORCE.'' \emph{Presidential Studies Quarterly} 46(4): 791--807.
+
+Clarke, Michael, and Anthony Ricketts. 2017. ``Donald Trump and American
+Foreign Policy: The Return of the Jacksonian Tradition.''
+\emph{Comparative Strategy} 36(4): 366--79.
+
+George, Justin, and Todd Sandler. 2022. ``NATO Defense Demand, Free
+Riding, and the Russo-Ukrainian War in 2022.'' \emph{Journal of
+Industrial and Business Economics} 49(4): 783--806.
+
+Gorwa, Robert, and Douglas Guilbeault. 2020. ``Unpacking the Social
+Media Bot: A Typology to Guide Research and Policy.'' \emph{Policy \&
+Internet} 12(2): 225--48.
+
+Hagen, Loni et al.~2022. ``Rise of the Machines? Examining the Influence
+of Social Bots on a Political Discussion Network.'' \emph{Social Science
+Computer Review} 40(2): 264--87.
+
+Iyengar, Shanto et al.~2019. ``The Origins and Consequences of Affective
+Polarization in the United States.'' \emph{Annual Review of Political
+Science} 22(1): 129--46.
+
+Pierson, Paul, and Eric Schickler. 2020. ``Madison's Constitution Under
+Stress: A Developmental Analysis of Political Polarization.''
+\emph{Annual Review of Political Science} 23(1): 37--58.
+
+Rolf, Jan Niklas. 2021. ``Donald Trump's Jacksonian and Jeffersonian
+Foreign Policy.'' \emph{Policy Studies} 42(5--6): 662--81.
+
+Sides, John, Michael Tesler, and Lynn Vavreck. 2018. ``Hunting Where the
+Ducks Are: Activating Support for Donald Trump in the 2016 Republican
+Primary.'' \emph{Journal of Elections, Public Opinion and Parties}
+28(2): 135--56.
+
+Stukal, Denis, Sergey Sanovich, Joshua A. Tucker, and Richard Bonneau.
+2019. ``For Whom the Bot Tolls: A Neural Networks Approach to Measuring
+Political Orientation of Twitter Bots in Russia.'' \emph{SAGE Open}
+9(2): 215824401982771.
+
+Uscinski, Joseph E. et al.~2021. ``American Politics in Two Dimensions:
+Partisan and Ideological Identities versus Anti‐Establishment
+Orientations.'' \emph{American Journal of Political Science} 65(4):
+877--95.
+
+Business Insider. 2022. ``Trump offers to lead group to mediate peace
+with Russia.''
+\url{https://www.businessinsider.com/trump-offers-lead-group-to-mediate-peace-russia-2022-9}
+(accessed June 7, 2023).
+
+Business Insider. 2023. ``Fox News cuts Trump, let Russia have bits of
+Ukraine.''
+\url{https://www.businessinsider.com/fox-news-cuts-trump-let-russia-have-bits-of-ukraine-2023-3}
+(accessed June 7, 2023).
+
+The Economist. 2022. ``Which countries have pledged the most support to
+Ukraine.''
+\url{https://www.economist.com/graphic-detail/2022/05/02/which-countries-have-pledged-the-most-support-to-ukraine}
+(accessed June 7, 2023).
+
+The Guardian. 2023. ``Boris Johnson meeting Donald Trump on Ukraine
+during US tour.''
+\url{https://www.theguardian.com/politics/2023/may/26/boris-johnson-meeting-donald-trump-ukraine-us-tour}
+(accessed June 7, 2023).
+
+The Hill. 2023. ``GOP lawmakers urge Biden to stop sending unrestrained
+aid, weapons to Ukraine.''
+\url{https://thehill.com/homenews/house/3961754-gop-lawmakers-urge-biden-to-stop-sending-unrestrained-aid-weapons-to-ukraine/}
+(accessed June 7, 2023).
+
+Reuters. 2023. ``Italy's Meloni ready to risk unpopularity over support
+for Ukraine.''
+\url{https://www.reuters.com/world/europe/italys-meloni-ready-risk-unpopularity-over-support-ukraine-2023-03-21/}
+(accessed June 7, 2023).
+
+\end{document}
