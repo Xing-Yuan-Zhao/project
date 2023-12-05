@@ -7,29 +7,22 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: 2023 Summer Project
+      - text: 7V81 Summer Project
         menu:
-          - href: summer2023.qmd
-            text: 2023 Summer Project Overview
           - href: proposal.qmd
             text: Proposal
           - href: presentation1.qmd
             text: Proposal Presentation
-          - href: litreview.qmd
-            text: Literature Review
-          - href: variable.qmd
-            text: Variable
-          - href: hypothesis.qmd
-            text: Hypothesis
-          - href: method.qmd
-            text: Model of Interest
-          - href: data.qmd
-            text: Data
-          - href: finding.qmd
-            text: Findings
+          - href: final.qmd
+            text: Final Project
+          - href: presentation2.qmd
+            text: Final Presentation
           - href: reference.qmd
             text: References
-
+      - text: 6319 Book Project
+        menu:
+          - href: book_presentation.qmd
+            text: Book Presentation
 format:
   html:
     theme: cosmo

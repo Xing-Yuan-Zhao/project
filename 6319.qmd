@@ -1,0 +1,267 @@
+---
+title: "Democratic Militarism: Voting, Wealth, and War"
+subtitle: "Xingyuan Zhao's Final Book Presentation"
+format: pptx
+---
+
+### 1- BRIEF Book Summary:
+#### Main research question:
+
+Anomalies: 
+
+1. Democracies are the top spender of defense budgets.
+
+2. Democracies initiated more wars than before. 
+
+Research question:
+
+Why are democracies **pursuing more military conflicts**, but **achieving 
+worse results**?
+
+---
+
+### 1- BRIEF Book Summary:
+#### Main argument:
+
+War by democracies are now a financial mobilization instead of a social mobilization
+
+------------------------------------------------------------------------
+
+#### Main argument:
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+
+  <div style="border: 2px solid black; padding: 18px; text-align: center;">
+    Inequality
+  </div>
+  
+  <div style="border: 2px solid black; padding: 5px; text-align: center;">
+    Unconventional wars
+  </div>
+
+  <div style="border: 2px solid black; padding: 5px; text-align: center;">
+    Military doctrines reform
+  </div>
+
+  <div style="border: 2px solid black; padding: 5px; text-align: center;">
+    Technologies advancements
+  </div>
+  
+</div>
+
+<h3 style="text-align: center;">
+&darr;&emsp;&emsp;&emsp;&darr;&emsp;&emsp;&emsp;&emsp;&emsp;&darr;&emsp;&emsp;&emsp;&emsp;&emsp;&darr;&emsp;&emsp;
+</h3>
+
+::: {style="border:2px solid black; padding:8px; text-align:center"}
+Capital intensified military
+:::
+
+<h3 style="text-align:center;">
+↓
+</h3>
+
+::: {style="border:2px solid black; padding:8px; text-align:center"}
+Reduced cost of war for average voters
+:::
+
+<h3 style="text-align:center;">
+↓
+</h3>
+
+::: {style="border:3px solid black; padding:8px; text-align:center"}
+Democracies wage more war
+:::
+
+---
+
+### 1- BRIEF Book Summary:
+#### Research design:
+
+Quantitative: Linear Models
+
+Qualitative: British Empire, US in Vietnam and Israel public opinion cases
+
+---
+
+### 1- BRIEF Book Summary:
+#### Empirical Evidence:
+
+![](gini_to_cap.png)
+
+---
+
+### 1- BRIEF Book Summary:
+#### Empirical Evidence:
+
+![](equality_to_spending_opinion)
+
+---
+
+### 1- BRIEF Book Summary:
+#### Empirical Evidence:
+
+![](cap_to_aggression.png)
+
+---
+
+### 2- Critiques / Fixes:
+
+1. Conceptualization problem: War vs Battle
+
+fix: differentiate effectiveness in war and battle
+
+---
+
+#### (1)effectiveness difference between war and battle:
+
+![](missle.png)
+
+<h4 style="text-align:center;">VS<h4>
+
+![](tent.png)
+
+---
+
+#### (2)factors impacting war outcome. i.e.: Audience cost
+
+<p align="center"><img src="cost_1.png" width="600"></p>
+
+<h4 style="text-align:center;">VS<h4>
+
+<p align="center"><img src="cost_2.png" width="600"></p>
+
+---
+
+### 2- Critiques / Fixes:
+
+2. Scope Limitation: 
+
+The findings cannot be applied to conventional warfare, where technology and equipment are more decisive.
+
+![](loss.png)
+
+fix: incorporate more data
+
+---
+
+### 2- Critiques / Fixes:
+
+3. Research design:
+
+(1)Empirical evidence only proved some parts of the causal pathway.
+
+(2)More evidence is needed for the internal mechanism.
+
+(3)To establish causality, they may need more methods.
+
+fix: time series analysis
+
+---
+
+### 2- Critiques / Fixes:
+
+4. Case Selection: British Empire
+
+------------------------------------------------------------------------
+
+### 3- My Take:
+
+#### Adjustments for the public opinion models:
+
+Measurements: actually measure the cost of war for average voter (Fazal 2021)
+
+Research Design:
+
+1. Incorporate time series design to make stronger causal arguments
+2. Incorporate spacial data test the cost of war using the difference between the states, such as enlistment rates
+
+---
+
+### 3- My Take:
+
+#### Adjustments for the military aggression models:
+
+Variables: 
+
+DV: Differentiate war/battle and their effectiveness and outcome
+
+Control variables: Types of wars
+
+------------------------------------------------------------------------
+
+### 4- Connections to Class Readings/Themes:
+
+Lake(1992)
+
+Democracies are:
+
+Powerful Pacifists (X)
+
+More invested in wars (✔)
+
+---
+  
+### 4- Connections to Class Readings/Themes:
+
+Tomz and Tweeks (2013)
+
+Democratic leaders are beholden by voters for cost of war (✔)
+
+which leads to democracies behaving peacefully (X)
+
+<br>
+
+Lyall (2010)
+
+Democracies are not uniquely prone to losing counterinsurgency wars (X)
+
+------------------------------------------------------------------------
+
+### 5- Implications and Relevant Event:
+
+#### (1)Events that Can Potentially Be Explained by the book:
+
+- Unconventional/asymmetrical wars:
+
+- War on terror;
+
+- France's interventions in Africa;
+
+- Proxy wars during the cold war.
+
+---
+
+### 5- Implications and Relevant Event:
+
+#### (2)Events that Cannot Be Explained by the book:
+
+- Less Unconventional/asymmetrical wars:
+
+- Russia-Ukraine War
+
+<br>
+
+#### (3)Events that Can Somewhat Be Explained by the book:
+
+- Partial mobilization in Russia
+
+---
+
+### 5- Implications and Relevant Event:
+
+#### (4)Real World / Policy Implications:
+
+- For policy makers in developed democracies: War weariness can be reduced by avoiding the average voters' paying for it;
+
+- For average voters: Not paying for it for now does not mean not paying for it forever; 
+
+- For Military industrial complex: Populism is your friend;
+
+- To promote peace: The vast majority must share the feelings of the war-torn people.
+
+------------------------------------------------------------------------
+
+### The End
+
+[Return to Home](index.html)
