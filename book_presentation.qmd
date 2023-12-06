@@ -1,10 +1,13 @@
 ---
 title: "Democratic Militarism: Voting, Wealth, and War"
 subtitle: "Xingyuan Zhao's Final Book Presentation"
-format: revealjs
+format: 
+  revealjs:
+    theme: league
+  
 ---
 
-### 1- BRIEF Book Summary:
+### Book Summary:
 #### Main research question:
 
 Anomalies: 
@@ -20,7 +23,7 @@ worse results**?
 
 ---
 
-### 1- BRIEF Book Summary:
+### Book Summary:
 #### Main argument:
 
 War by democracies are now a financial mobilization instead of a social mobilization
@@ -75,7 +78,7 @@ Democracies wage more war
 
 ---
 
-### 1- BRIEF Book Summary:
+### Book Summary:
 #### Research design:
 
 Quantitative: Linear Models
@@ -84,28 +87,28 @@ Qualitative: British Empire, US in Vietnam and Israel public opinion cases
 
 ---
 
-### 1- BRIEF Book Summary:
+### Book Summary:
 #### Empirical Evidence:
 
 ![](gini_to_cap.png)
 
 ---
 
-### 1- BRIEF Book Summary:
+### Book Summary:
 #### Empirical Evidence:
 
 ![](equality_to_spending_opinion)
 
 ---
 
-### 1- BRIEF Book Summary:
+### Book Summary:
 #### Empirical Evidence:
 
 ![](cap_to_aggression.png)
 
 ---
 
-### 2- Critiques / Fixes:
+### Critiques and Fixes:
 
 1. Conceptualization problem: War vs Battle
 
@@ -123,7 +126,7 @@ fix: differentiate effectiveness in war and battle
 
 ---
 
-#### (2)factors impacting war outcome. i.e.: Audience cost
+#### (2)factors impacting war outcome. i.e.: Regime type's effect on Audience cost
 
 <p align="center"><img src="cost_1.png" width="600"></p>
 
@@ -133,7 +136,7 @@ fix: differentiate effectiveness in war and battle
 
 ---
 
-### 2- Critiques / Fixes:
+### Critiques and Fixes:
 
 2. Scope Limitation: 
 
@@ -145,7 +148,7 @@ fix: incorporate more data
 
 ---
 
-### 2- Critiques / Fixes:
+### Critiques and Fixes:
 
 3. Research design:
 
@@ -159,13 +162,13 @@ fix: time series analysis
 
 ---
 
-### 2- Critiques / Fixes:
+### Critiques and Fixes:
 
 4. Case Selection: British Empire
 
 ------------------------------------------------------------------------
 
-### 3- My Take:
+### Alternative Approaches:
 
 #### Adjustments for the public opinion models:
 
@@ -178,7 +181,7 @@ Research Design:
 
 ---
 
-### 3- My Take:
+### Alternative Approaches:
 
 #### Adjustments for the military aggression models:
 
@@ -190,7 +193,7 @@ Control variables: Types of wars
 
 ------------------------------------------------------------------------
 
-### 4- Connections to Class Readings/Themes:
+### Connections:
 
 Lake(1992)
 
@@ -202,7 +205,7 @@ More invested in wars (✔)
 
 ---
   
-### 4- Connections to Class Readings/Themes:
+### Connections:
 
 Tomz and Tweeks (2013)
 
@@ -218,11 +221,11 @@ Democracies are not uniquely prone to losing counterinsurgency wars (X)
 
 ------------------------------------------------------------------------
 
-### 5- Implications and Relevant Event:
+### Implications:
 
 #### (1)Events that Can Potentially Be Explained by the book:
 
-- Unconventional/asymmetrical wars:
+Unconventional/asymmetrical wars:
 
 - War on terror;
 
@@ -232,11 +235,11 @@ Democracies are not uniquely prone to losing counterinsurgency wars (X)
 
 ---
 
-### 5- Implications and Relevant Event:
+### Implications:
 
 #### (2)Events that Cannot Be Explained by the book:
 
-- Less Unconventional/asymmetrical wars:
+Less Unconventional/asymmetrical wars:
 
 - Russia-Ukraine War
 
@@ -248,7 +251,7 @@ Democracies are not uniquely prone to losing counterinsurgency wars (X)
 
 ---
 
-### 5- Implications and Relevant Event:
+### Implications:
 
 #### (4)Real World / Policy Implications:
 
